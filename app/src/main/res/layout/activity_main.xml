@@ -6,7 +6,7 @@
     tools:context="demos.android.stormdzh.com.androiddemos.MainActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/RecyclerView"
+        android:id="@+id/mRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
