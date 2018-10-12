@@ -11,8 +11,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import demos.android.stormdzh.com.androiddemos.adapter.main.MainAdapter;
+import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
+import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
+import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
+import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
 import demos.android.stormdzh.com.androiddemos.turntable.TurnTableActivity;
 
 public class MainActivity extends AppCompatActivity implements OnMainItemClickListener {
@@ -33,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList = new ArrayList<>();
 
         mainList.add(new MainEntity("抽奖", TurnTableActivity.class));
+        mainList.add(new MainEntity("Excel表格", ExcelTestActivity.class));
+        mainList.add(new MainEntity("数据抓取", CatchDataActivity.class));
+        mainList.add(new MainEntity("RetrofitTest", RetrofitTestActivity.class));
+        mainList.add(new MainEntity("Retrofit+RX_Test", RetrofitRxTestActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
