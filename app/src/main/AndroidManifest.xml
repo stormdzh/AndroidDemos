@@ -73,6 +73,7 @@
         <activity android:name=".catchdata.CatchDataActivity" />
         <activity android:name=".retrofit_test.RetrofitTestActivity" />
         <activity android:name=".retrofit_rx_test.RetrofitRxTestActivity" />
+        <activity android:name=".dragger2_test.Dragger2TestActivity" />
     </application>
 
 </manifest>
