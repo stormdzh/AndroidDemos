@@ -24,6 +24,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.TreeMap;
 
 import demos.android.stormdzh.com.androiddemos.R;
 import demos.android.stormdzh.com.androiddemos.catchdata.entity.CatchDetaiEntity;
@@ -44,8 +45,7 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
     private TextView tv_last;
     private List<CatchList> allList;
     private int curIndex;
-
-    String url = "接口地址";
+    String url = "列表接口";
     HashMap<String, String> headers;
 
     private Handler mHandler = new Handler() {
@@ -62,10 +62,10 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
                     }
                     getDetailNetData(wid);
                     break;
-                    //请求失败
+                //请求失败
                 case 200:
                     int sp = getSp();
-                    tv_last.setText("上次进度=》"+sp);
+                    tv_last.setText("上次进度=》" + sp);
                     break;
             }
         }
@@ -75,11 +75,11 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catch_data);
-        curIndex= getSp();
+        curIndex = getSp();
         findViewById(R.id.tv_start).setOnClickListener(this);
-        tv_last=findViewById(R.id.tv_last);
+        tv_last = findViewById(R.id.tv_last);
 
-        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.MOUNT_FORMAT_FILESYSTEMS}, 100);
+        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.MOUNT_FORMAT_FILESYSTEMS}, 100);
 //        PermissionUtil.requestPermissions(this, new String[]{"permission:android.permission.WRITE_EXTERNAL_STORAGE"}, 100);
     }
 
@@ -91,10 +91,7 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
 
     private void getListNetData() {
         headers = new HashMap<>();
-
-        headers.put("TOKEN", "token");
-
-
+        headers.put("TOKEN", "aaa");
         VolleyUtil.requestNet(this, "CatchDataActivity-list", headers, url, new OnNetListener() {
             @Override
             public void onSucces(String result) {
@@ -117,6 +114,8 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
         if (catchListEntity == null | catchListEntity.res == null) return;
         allList = catchListEntity.res;
 
+//        Log.i("test","单词个数==》"+allList.size());
+
         mHandler.removeMessages(100);
         mHandler.sendEmptyMessageDelayed(100, 1000);
 
@@ -124,13 +123,10 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
 
     private void getDetailNetData(String wid) {
 
-        String url = "接口2";
+        String url="详情url";
         headers = new HashMap<>();
-
-        headers.put("TOKEN", "123");
-
-
-        VolleyUtil.requestNet(this, "CatchDataActivity-detail", headers, url, new OnNetListener() {
+        headers.put("TOKEN", "token");
+        VolleyUtil.requestNet(this, "CatchDataActivity-detail"+curIndex, headers, url, new OnNetListener() {
             @Override
             public void onSucces(String result) {
                 Toast.makeText(CatchDataActivity.this, "详情成功=》" + curIndex, Toast.LENGTH_SHORT).show();
@@ -157,6 +153,22 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
 //        Gson gson = new GsonBuilder().create();
 //        CatchDetaiEntity detail = gson.fromJson(result, CatchDetaiEntity.class);
 //        Util.getInstance().savaData2Excel(curIndex, detail.res.name, result);
+        String postUrl = "post url";
+        TreeMap<String, String> params = new TreeMap<>();
+        params.put("text", result);
+
+        VolleyUtil.postNet(this, "post_add"+curIndex, new HashMap<String, String>(), postUrl, params, new OnNetListener() {
+
+            @Override
+            public void onSucces(String result) {
+             Log.i("test","onSucces");
+            }
+
+            @Override
+            public void onFail(String msg) {
+                Log.i("test","onFail");
+            }
+        });
 
     }
 
@@ -210,15 +222,16 @@ public class CatchDataActivity extends AppCompatActivity implements View.OnClick
 
     }
 
-    private void savaSp(int index){
-        SharedPreferences preferences=getSharedPreferences("user", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor=preferences.edit();
+    private void savaSp(int index) {
+        SharedPreferences preferences = getSharedPreferences("user", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
         editor.putInt("index", index);
         editor.commit();
     }
-    private int getSp(){
-        SharedPreferences preferences=getSharedPreferences("user", Context.MODE_PRIVATE);
-        int name=preferences.getInt("index", 0);
+
+    private int getSp() {
+        SharedPreferences preferences = getSharedPreferences("user", Context.MODE_PRIVATE);
+        int name = preferences.getInt("index", 0);
         return name;
     }
 }

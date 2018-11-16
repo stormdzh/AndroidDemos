@@ -11,11 +11,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import demos.android.stormdzh.com.androiddemos.adapter.main.MainAdapter;
+import demos.android.stormdzh.com.androiddemos.audiomerge.AudioMergeActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
 import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
+import demos.android.stormdzh.com.androiddemos.pinyin.PingyinActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
 import demos.android.stormdzh.com.androiddemos.turntable.TurnTableActivity;
@@ -43,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("RetrofitTest", RetrofitTestActivity.class));
         mainList.add(new MainEntity("Retrofit+RX_Test", RetrofitRxTestActivity.class));
         mainList.add(new MainEntity("Dragger2_Test", Dragger2TestActivity.class));
+        mainList.add(new MainEntity("汉字拼音", PingyinActivity.class));
+        mainList.add(new MainEntity("音频合并", AudioMergeActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
