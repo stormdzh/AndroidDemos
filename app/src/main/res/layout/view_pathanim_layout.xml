@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <demos.android.stormdzh.com.androiddemos.pathanim.WaterProgressView
+        android:id="@+id/iv_left"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true" />
+
+
+    <demos.android.stormdzh.com.androiddemos.pathanim.WaterProgressView
+        android:id="@+id/iv_center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true" />
+
+    <demos.android.stormdzh.com.androiddemos.pathanim.WaterProgressView
+        android:id="@+id/iv_right"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

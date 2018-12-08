@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/accTomp3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="accTomp3" />
+
+    <Button
+        android:id="@+id/accTowav"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="accTowav" />
+
+
+    <Button
+        android:id="@+id/wavTomp3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="wavTomp3" />
+
+
+    <Button
+        android:id="@+id/mp3Toacc"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="mp3Toacc" />
+
+
+    <Button
+        android:id="@+id/audioCodeTest"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="audioCodeTest" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#22ff0000"
+        android:gravity="center"
+        android:text="一下使用lame" />
+
+
+    <Button
+        android:id="@+id/lame_wavTomp3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="lame_wavTomp3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#22ff0000"
+        android:gravity="center"
+        android:text="AudioFormatConvertUtil" />
+
+
+    <Button
+        android:id="@+id/c_mp3ToWav"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="c_mp3ToWav" />
+
+    <Button
+        android:id="@+id/c_wavToMp3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="c_wavToMp3" />
+
+    <Button
+        android:id="@+id/c_pcmToWav"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="c_pcmToWav" />
+
+</LinearLayout>

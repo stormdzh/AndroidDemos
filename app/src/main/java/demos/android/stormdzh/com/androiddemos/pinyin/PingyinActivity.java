@@ -19,12 +19,15 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 import java.util.List;
 
 import demos.android.stormdzh.com.androiddemos.R;
+import demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinException;
+import demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinFormat;
 
 public class PingyinActivity extends AppCompatActivity {
 
     private TextView tvShowText;
     private TextView tvPingyinText;
     private TextView tvChinesext;
+    private TextView tvjpinyin2chinese;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,11 +38,25 @@ public class PingyinActivity extends AppCompatActivity {
         tvShowText = findViewById(R.id.tvShowText);
         tvPingyinText = findViewById(R.id.tvPingyinText);
         tvChinesext = findViewById(R.id.tvChinesext);
+        tvjpinyin2chinese = findViewById(R.id.tvjpinyin2chinese);
 
         test1();
 
         test2();
 
+        tvjpinyin2chinese();
+
+    }
+
+    private void tvjpinyin2chinese() {
+        String text="我";
+        String s="";
+        try {
+             s = demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinHelper.convertToPinyinString(text, ",");
+        } catch (PinyinException e) {
+            e.printStackTrace();
+        }
+        tvjpinyin2chinese.setText(text+"  "+s);
     }
 
     private void test2() {

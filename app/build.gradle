@@ -9,11 +9,32 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi'
+        }
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.jni.srcDirs = []//disable automatic ndk-build call
+        main.jniLibs.srcDirs = ['libs']// 将libs的so增加到工程中
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+
+        maven {
+            url "https://jitpack.io"
         }
     }
 }
@@ -36,25 +57,39 @@ dependencies {
 
 
     // Retrofit库
-    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
     // Okhttp库
-    compile 'com.squareup.okhttp3:okhttp:3.1.2'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.1.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.1.2'
     //Gson converter
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     //converter-scalars  返回字符串
-    compile 'com.squareup.retrofit2:converter-scalars:2.0.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.0.0'
     //rx java
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
     //rx android
-    compile 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex:rxandroid:1.2.1'
 
 
     //Dagger2
-    compile"com.google.dagger:dagger:2.14.1"
-    annotationProcessor"com.google.dagger:dagger-compiler:2.14.1"
+    implementation "com.google.dagger:dagger:2.14.1"
+    annotationProcessor "com.google.dagger:dagger-compiler:2.14.1"
 
 
     //汉字转拼音
     implementation files('libs/pinyin4j-2.5.0.jar')
+
+
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.21'
+
+    implementation 'com.github.adrielcafe:AndroidAudioConverter:0.0.8'
+
+    //添加lame
+    implementation files('libs/flame.jar')
+
+    //音频处理 https://github.com/li-yuqi/AudioFormatConvertUtil
+    implementation files('libs/audio-1.0.2.jar')
+
+    //添加logger
+    implementation 'com.orhanobut:logger:2.1.1'
 }
