@@ -20,7 +20,6 @@ import java.util.List;
 
 import demos.android.stormdzh.com.androiddemos.R;
 import demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinException;
-import demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinFormat;
 
 public class PingyinActivity extends AppCompatActivity {
 
@@ -49,14 +48,14 @@ public class PingyinActivity extends AppCompatActivity {
     }
 
     private void tvjpinyin2chinese() {
-        String text="我";
-        String s="";
+        String text = "我们都是好孩子！！哈哈哈";
+        String s = "";
         try {
-             s = demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinHelper.convertToPinyinString(text, ",");
+            s = demos.android.stormdzh.com.androiddemos.pinyin.jpinyin.PinyinHelper.convertToPinyinString(text, ",");
         } catch (PinyinException e) {
             e.printStackTrace();
         }
-        tvjpinyin2chinese.setText(text+"  "+s);
+        tvjpinyin2chinese.setText(text + "  " + s);
     }
 
     private void test2() {
@@ -71,15 +70,15 @@ public class PingyinActivity extends AppCompatActivity {
         List<String> pList = gson.fromJson(gstr, new TypeToken<List<String>>() {
         }.getType());
 
-        String pin="";
-        for(int i=0;i<pList.size();i++){
-            pin+=pList.get(i);
+        String pin = "";
+        for (int i = 0; i < pList.size(); i++) {
+            pin += pList.get(i);
         }
 
         tvShowText.setText(pin);
     }
 
-    public static String converterToFirstSpell(String chines){
+    public static String converterToFirstSpell(String chines) {
         String pinyinName = "";
         char[] nameChar = chines.toCharArray();
         HanyuPinyinOutputFormat defaultFormat = new HanyuPinyinOutputFormat();
@@ -88,13 +87,13 @@ public class PingyinActivity extends AppCompatActivity {
         for (int i = 0; i < nameChar.length; i++) {
             if (nameChar[i] > 128) {
                 try {
-                    Log.i("test","nameChar[i]:"+nameChar[i]);
-                    Log.i("test","defaultFormat:"+defaultFormat);
+                    Log.i("test", "nameChar[i]:" + nameChar[i]);
+                    Log.i("test", "defaultFormat:" + defaultFormat);
                     pinyinName += PinyinHelper.toHanyuPinyinStringArray(nameChar[i], defaultFormat)[0].charAt(0);
                 } catch (BadHanyuPinyinOutputFormatCombination e) {
                     e.printStackTrace();
                 }
-            }else{
+            } else {
                 pinyinName += nameChar[i];
             }
         }
@@ -103,10 +102,11 @@ public class PingyinActivity extends AppCompatActivity {
 
     /**
      * 汉字转换位汉语拼音，英文字符不变
+     *
      * @param chines 汉字
      * @return 拼音
      */
-    public static String converterToSpell(String chines){
+    public static String converterToSpell(String chines) {
         String pinyinName = "";
         char[] nameChar = chines.toCharArray();
         HanyuPinyinOutputFormat defaultFormat = new HanyuPinyinOutputFormat();
@@ -119,7 +119,7 @@ public class PingyinActivity extends AppCompatActivity {
                 } catch (BadHanyuPinyinOutputFormatCombination e) {
                     e.printStackTrace();
                 }
-            }else{
+            } else {
                 pinyinName += nameChar[i];
             }
         }

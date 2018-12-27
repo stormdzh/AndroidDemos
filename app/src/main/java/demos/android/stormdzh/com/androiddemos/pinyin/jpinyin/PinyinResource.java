@@ -49,10 +49,14 @@ public final class PinyinResource {
     protected static Reader newAssetReader(String path) {
         try {
 //            InputStream abpath = context.getResourceAsStream("/assets/文件名");
-            return new InputStreamReader(new FileInputStream(path), "UTF-8");
+            InputStream  inputStream = MyApplication.getContext().getAssets().open(path);
+//            return new InputStreamReader(new FileInputStream(path), "UTF-8");
+            return new InputStreamReader(inputStream, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }catch (Exception e){
             e.printStackTrace();
         }
         return null;
@@ -87,15 +91,15 @@ public final class PinyinResource {
 //        return getResource(newClassPathReader("/data/chinese.dict"));
 //    }
     protected static Map<String, String> getPinyinResource() {
-        return getResource(newFileReader("file:///android_asset/chinese/pinyin.dict"));
+        return getResource(newAssetReader("chinese/pinyin.dict"));
     }
 
     protected static Map<String, String> getMutilPinyinResource() {
-        return getResource(newFileReader("file:///android_asset/chinese/mutil_pinyin.dict"));
+        return getResource(newAssetReader("chinese/mutil_pinyin.dict"));
     }
 
     protected static Map<String, String> getChineseResource() {
-        return getResource(newFileReader("file:///android_asset/chinese/chinese.dict"));
+        return getResource(newAssetReader("chinese/chinese.dict"));
     }
 
 
@@ -107,4 +111,29 @@ public final class PinyinResource {
 //    String result = = new String(buffer, "utf8");
 
 //    file:///android_asset/chinese/html/index.htmll
+
+
+//    public void copyMp4ToSDcard(Context context, String bgBlankPath) {
+//        if (new File(bgBlankPath).exists()) {
+//            return;
+//        }
+//        InputStream myInput;
+//        OutputStream myOutput = null;
+//        try {
+//            myOutput = new FileOutputStream(bgBlankPath);
+//            myInput = context.getAssets().open("audio/peiyin_blank.mp4");
+//            byte[] buffer = new byte[1024];
+//            int length = myInput.read(buffer);
+//            while (length > 0) {
+//                myOutput.write(buffer, 0, length);
+//                length = myInput.read(buffer);
+//            }
+//
+//            myOutput.flush();
+//            myInput.close();
+//            myOutput.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
