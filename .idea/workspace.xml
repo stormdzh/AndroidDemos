@@ -18,6 +18,14 @@
         <option name="packageNamePattern" value="" />
         <option name="pid" value="" />
       </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="AudioCodec" />
+        <option name="name" value="AudioCodec" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
     </filters>
   </component>
   <component name="AndroidLayouts">
@@ -26,8 +34,11 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioFormatConvertUtil.java" description="+ &quot;4小莉    |青年女声 |中英文 |台湾普通话 |vixl 小莉\n&quot;" line="274" />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -35,6 +46,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5702b959-cb6d-4b69-8bb1-94bfa7cd9db7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
@@ -47,6 +59,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_a111_Desktop_test_AndroidDemos_app_libs_pinyin4j_2_5_0_jar_unspecified_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+    <list default="true" id="c412acc8-eeca-4cff-aec1-359abfe6890f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,17 +80,87 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AndroidDemos" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-80">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PinyinResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="39" column="73" lean-forward="true" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/util/PermissionUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PingyinActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PinyinHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_pinyin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pinyin.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
             </state>
           </provider>
         </entry>
@@ -97,6 +184,21 @@
       <find>PermissionManager</find>
       <find>PermissionUtil</find>
       <find>check_btn</find>
+      <find>encodeType</find>
+      <find>repositories</find>
+      <find>accTomp3</find>
+      <find>flame</find>
+      <find>mSampleRateInHZ</find>
+      <find>FLameUtils</find>
+      <find>mChannelConfig</find>
+      <find>EncodeRunnable</find>
+      <find>encodeInputBuffers</find>
+      <find>getPCM</find>
+      <find>mRecorderBufferSize</find>
+      <find>mTmpFileAbs</find>
+      <find>pathAnim</find>
+      <find>mBitmap</find>
+      <find>newFileReader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2115,28 +2217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/customview/turntable/TurntableView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/adapter/turntable/TurntAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_truntable.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/bg_turntable_start.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_turn_table.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_turn_table.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/bg_turntable_selected.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/turntable/TurnTableActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test_excel.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/util/PermissionUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/excel/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/excel/ExcelTestActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/net.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/net/OnNetSeccess.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/net/OnNetSuccess.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/net/OnNetListener.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchList.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchListEntity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchDetaiEntity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchDetaiRes.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/Util.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_retrofit_test.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/entity/ZhihuStory.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/ApiManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/RetrofitTestActivity.java" />
@@ -2155,23 +2235,46 @@
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/presenter/EntityTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/Dragger2TestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/net/VolleyUtil.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyin.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/PermissionManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/PermissionUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/WavMergeUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_audio_merge.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/AudioMergeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/CatchDataActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/AudioCodec.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/MyApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/Demo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mp4parser.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/MusicUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/WaveHeader.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/MP4ParserActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioCodec.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioEncoder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/AudioMergeActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioFormatConvertUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_audio_convert.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioConvertActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/YWStudyProgView2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/YWStudyProgView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_pathanim_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/WaterProgressView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/PathAnimActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_path_anim.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinFormat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyin.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2179,11 +2282,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="AndroidDemos" type="1abcf292:AndroidViewProjectNode" />
+<<<<<<< HEAD
+=======
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="AndroidDemos" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidDemos" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="androiddemos" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemos" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="androiddemos" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemos" type="1abcf292:AndroidViewProjectNode" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -2191,8 +2330,22 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidDemos" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2206,17 +2359,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demos.android.stormdzh.com.androiddemos.pathanim" />
+      <recent name="demos.android.stormdzh.com.androiddemos.audioconvert" />
       <recent name="demos.android.stormdzh.com.androiddemos.retrofit_test.Interface" />
       <recent name="demos.android.stormdzh.com.androiddemos.retrofit_test" />
       <recent name="demos.android.stormdzh.com.androiddemos.customview.common" />
-      <recent name="demos.android.stormdzh.com.androiddemos.adapter.turntable" />
-      <recent name="demos.android.stormdzh.com.androiddemos.entity.turntable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_rx_test" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/entity" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_rx_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2408,11 +2562,22 @@
       <option name="project" value="LOCAL" />
       <updated>1539336743900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加了汉字转拼音合并">
+      <created>1542350273465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542350273466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+<<<<<<< HEAD
+=======
+    <editor active="true" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2422,6 +2587,7 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5954416" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5470086" />
@@ -2432,9 +2598,22 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3293718" />
       <window_info anchor="right" id="Gradle" order="3" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.27164686" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14102565" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.34330484" />
+      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.16096866" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32956383" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="3" sideWeight="0.5027322" side_tool="true" weight="0.21567044" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.23931624" />
@@ -2443,6 +2622,14 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4059829" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.21529745" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Preview" order="3" sideWeight="0.49726775" weight="0.31663975" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
@@ -2454,6 +2641,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="3" weight="0.21567044" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.18233618" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
@@ -2468,6 +2656,9 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21794872" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26210827" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2502,7 +2693,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试用例" />
     <MESSAGE value="测试dragger 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试dragger 2" />
+    <MESSAGE value="增加了汉字转拼音合并" />
+    <MESSAGE value="merge code" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2598,25 +2791,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java</url>
-          <line>66</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java</url>
-          <line>80</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java</url>
-          <line>75</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java</url>
-          <line>77</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
@@ -2698,361 +2891,340 @@
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/Demo.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/MP4ParserActivity.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/MP4ParserActivity.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioConvertActivity.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioConvertActivity.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioCodec.java</url>
+          <line>451</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioFormatConvertUtil.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioConvertActivity.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioConvertActivity.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/YWStudyProgView.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/YWStudyProgView.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="81" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_test_excel.xml">
+=======
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/MediaFormat.java">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="6" selection-start-column="3" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="167">
+          <caret line="113" column="50" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="50" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchList.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/AudioCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="114">
+          <caret line="278" selection-start-line="278" selection-end-line="278" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mp4parser.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="804" column="42" selection-start-line="804" selection-start-column="42" selection-end-line="804" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchListEntity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/excel/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="61" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="945">
+          <caret line="73" column="55" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/jxl.jar!/jxl/write/Label.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/MP4ParserActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="307">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchDetaiRes.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/mp4parser/utils/Mp4ParseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="-1505">
+          <caret line="120" column="9" lean-forward="true" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/entity/CatchDetaiEntity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/WaveHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="352">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AndroidAudioConverter-0.0.8.aar/ab8cc4eb0b602112642b719f6f7a8c30/jars/classes.jar!/cafe/adriel/androidaudioconverter/AndroidAudioConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_retrofit_test.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/MusicUtil.java">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="256">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/entity/ZhihuStory.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/3564ebef90ac75e61ed65ab9af0f422ce92d4afa/retrofit-2.1.0-sources.jar!/retrofit2/Response.java">
+    <entry file="jar://$PROJECT_DIR$/app/libs/flame.jar!/com/pocketdigi/utils/FLameUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+        <state relative-caret-position="465">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/entity/ZhiHuDaily.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/Interface/NetInterface.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/RetrofitTestActivity.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/AudioFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="6000">
+          <caret line="428" column="44" selection-start-line="428" selection-start-column="28" selection-end-line="428" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_test/ApiManager.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/MediaCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="126">
+          <caret line="2621" column="15" selection-start-line="2621" selection-start-column="12" selection-end-line="2621" selection-end-column="15" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_retrofit_rx_test.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/3564ebef90ac75e61ed65ab9af0f422ce92d4afa/retrofit-2.1.0-sources.jar!/retrofit2/CallAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/19baad40e6195ee49086cd08bde2883653acbd16/adapter-rxjava-2.1.0-sources.jar!/retrofit2/adapter/rxjava/RxJavaCallAdapterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="233" column="48" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_rx_test/Interface/NetInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_rx_test/ApiManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/retrofit_rx_test/RetrofitRxTestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="90" column="11" lean-forward="true" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        <state relative-caret-position="193">
+          <caret line="449" column="21" selection-start-line="449" selection-start-column="21" selection-end-line="449" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1772#1773#0" expanded="true" />
+            <element signature="e#14241#14242#0" expanded="true" />
+            <element signature="e#14281#14282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/Manifest.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioEncoder.java">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="178" column="55" selection-start-line="178" selection-start-column="55" selection-end-line="178" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/io/FileWriter.java" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_catch_data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="399">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/Util.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/AudioAttributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="70" column="82" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="82" />
+        <state relative-caret-position="188">
+          <caret line="346" column="27" selection-start-line="346" selection-start-column="12" selection-end-line="346" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/dragger/ICommonView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/dragger/ActivityScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/dragger/CommonModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/demos/android/stormdzh/com/androiddemos/dragger2_test/dragger/DaggerCommonComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/dragger/CommonComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/presenter/DraggerTest1Presenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/presenter/EntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/dragger2_test/Dragger2TestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/net/VolleyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/model/PinyinModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/pinyin4j-2.5.0.jar!/net/sourceforge/pinyin4j/PinyinHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pinyin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_audio_convert.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioConvertActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/PermissionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="120">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/PermissionManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audioconvert/AudioFormatConvertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/excel/ExcelTestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="37" column="123" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="123" />
+        <state relative-caret-position="1350">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/util/PermissionUtil.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/AudioRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="624">
+          <caret line="276" column="35" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_audio_merge.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/io/FileWriter.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+=======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/WavMergeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="930">
+          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3060,31 +3232,257 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/audiomerge/AudioMergeActivity.java">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="251" column="26" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
+        <state relative-caret-position="512">
+          <caret line="153" column="36" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4083#5046#0" expanded="true" />
-            <element signature="e#5045#5046#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/catchdata/CatchDataActivity.java">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_catch_data.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/view_pathanim_layout.xml" />
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+        <state relative-caret-position="305">
+          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/graphics/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="402" column="9" selection-start-line="402" selection-start-column="9" selection-end-line="402" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_pathanim_layout2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/util/AppUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/view/animation/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/view/animation/ScaleAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="212" column="61" selection-start-line="212" selection-start-column="51" selection-end-line="212" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/YWStudyProgView2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_pathanim_layout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/WaterProgressView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/PathAnimActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pinyin.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_path_anim.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pathanim/YWStudyProgView.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="295">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="27" />
+=======
+        <state relative-caret-position="15">
+          <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/ChineseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1072">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/DoubleArrayTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4912">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinFormat.java">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+<<<<<<< HEAD
+      <provider editor-type-id="android-manifest">
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pinyin.xml">
+      <provider editor-type-id="android-designer2">
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_audio_merge.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/PingyinActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/pinyin/jpinyin/PinyinResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-80">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+=======
+        <state relative-caret-position="225">
+          <caret line="39" column="73" lean-forward="true" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/demos/android/stormdzh/com/androiddemos/util/PermissionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="61" />
+>>>>>>> d4ec0c4e6410ff2c3f0fd45b243cf8dc7d4ea58a
         </state>
       </provider>
     </entry>

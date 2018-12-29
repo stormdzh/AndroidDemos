@@ -56,7 +56,8 @@ public class AudioMergeActivity extends AppCompatActivity implements View.OnClic
     /*默认数据*/
     private int mSampleRateInHZ = 8000; //采样率
     private int mAudioFormat = AudioFormat.ENCODING_PCM_16BIT;  //位数
-    private int mChannelConfig = AudioFormat.CHANNEL_IN_MONO;   //声道
+//    private int mChannelConfig = AudioFormat.CHANNEL_IN_MONO;   //声道
+    private int mChannelConfig = 2;   //声道
 
 
     private boolean isRecording = false;
@@ -116,7 +117,6 @@ public class AudioMergeActivity extends AppCompatActivity implements View.OnClic
                 final File tmpOutFile = createFile(tmpName + ".wav");
                 mTmpFileAbs = tmpFile.getAbsolutePath();
                 mLogTv.setText(tmpFile.getAbsolutePath());
-
 
                 isRecording = true;
                 mAudioRecord.startRecording();

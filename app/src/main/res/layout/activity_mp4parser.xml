@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/bnt_merge_mp4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="mp4追加" />
+    <Button
+        android:id="@+id/bnt_geshi_audio"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="音频 aac-》mp3" />
+
+
+    <Button
+        android:id="@+id/mp4Addaac"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="mp4_Add_aac" />
+
+    <Button
+        android:id="@+id/splitMp4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="splitMp4" />
+
+    <Button
+        android:id="@+id/addZimu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="添加字幕" />
+
+</LinearLayout>
