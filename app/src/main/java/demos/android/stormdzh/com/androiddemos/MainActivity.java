@@ -18,12 +18,15 @@ import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
 import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
+import demos.android.stormdzh.com.androiddemos.gallery.GalleryRecycleViewActivity;
+import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
 import demos.android.stormdzh.com.androiddemos.mp4parser.MP4ParserActivity;
 import demos.android.stormdzh.com.androiddemos.pathanim.PathAnimActivity;
 import demos.android.stormdzh.com.androiddemos.pinyin.PingyinActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
+import demos.android.stormdzh.com.androiddemos.texthtml.TextViewHtmlActivity;
 import demos.android.stormdzh.com.androiddemos.turntable.TurnTableActivity;
 
 public class MainActivity extends AppCompatActivity implements OnMainItemClickListener {
@@ -56,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("MP4Parser-Android视频编辑解析库", MP4ParserActivity.class));
         mainList.add(new MainEntity("AudioConverter - 音频格式转换", AudioConvertActivity.class));
         mainList.add(new MainEntity("path-路径动画", PathAnimActivity.class));
+        mainList.add(new MainEntity("画廊效果-recycleView", GalleryRecycleViewActivity.class));
+        mainList.add(new MainEntity("画廊效果-viewpager", GalleryViewpagerActivity.class));
+        mainList.add(new MainEntity("TextView显示html标签", TextViewHtmlActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

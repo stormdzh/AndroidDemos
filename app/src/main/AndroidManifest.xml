@@ -82,6 +82,9 @@
         <activity android:name=".mp4parser.MP4ParserActivity" />
         <activity android:name=".audioconvert.AudioConvertActivity" />
         <activity android:name=".pathanim.PathAnimActivity" />
+        <activity android:name=".gallery.GalleryRecycleViewActivity" />
+        <activity android:name=".gallery.GalleryViewpagerActivity" />
+        <activity android:name=".texthtml.TextViewHtmlActivity" />
 
     </application>
 
