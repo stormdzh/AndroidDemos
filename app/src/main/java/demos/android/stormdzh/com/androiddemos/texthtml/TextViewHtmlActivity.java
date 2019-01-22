@@ -26,6 +26,10 @@ public class TextViewHtmlActivity extends AppCompatActivity {
 //        String html = "<span style='color: #828D93;'><b style='font-size:18px;'>当前学币不足，分享可解锁</b><br/><span>每天都可邀请好友助力获<b style='font-size: 20px; color: #FF0000;'>20</b>学币解锁哦</span></span>";
         String html = "<font color='#828D93' size='24'> <b>当前学币不足，分享可解锁</b> </font>  <br/>  <font color='#828D93' size='18'> 每天都可邀请好友助力获 </font>  <font color='#ff0000' size='30'> <b>20</b> </font>  <font color='#828D93' size='18'> 学币解锁哦 </font>";
 
+        //String html="<div style='color: #828D93;'><b style='font-size:18px;'>当前学币不足，分享可解锁</b><br/>每天都可邀请好友助力获<b style='font-size: 20px; color: #FFBB00;'>20</b>学币解锁哦</div>";
+
+//        String html="<div  color='#828D93' size='24'><b style='font-size:18px;'>当前学币不足，分享可解锁</b><br/>每天都可邀请好友助力获<b style='font-size: 20px; color: #FFBB00;'>20</b>学币解锁哦</div>";
+
         //设置介绍
         if (Build.VERSION.SDK_INT >= 24) {
             tvTextView.setText(Html.fromHtml(html, Html.FROM_HTML_MODE_COMPACT));

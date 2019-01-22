@@ -24,6 +24,7 @@ import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
 import demos.android.stormdzh.com.androiddemos.mp4parser.MP4ParserActivity;
 import demos.android.stormdzh.com.androiddemos.pathanim.PathAnimActivity;
 import demos.android.stormdzh.com.androiddemos.pinyin.PingyinActivity;
+import demos.android.stormdzh.com.androiddemos.porterduff.PorterDuffActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
 import demos.android.stormdzh.com.androiddemos.texthtml.TextViewHtmlActivity;
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("画廊效果-recycleView", GalleryRecycleViewActivity.class));
         mainList.add(new MainEntity("画廊效果-viewpager", GalleryViewpagerActivity.class));
         mainList.add(new MainEntity("TextView显示html标签", TextViewHtmlActivity.class));
+        mainList.add(new MainEntity("颜色叠加模式定义控件", PorterDuffActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
