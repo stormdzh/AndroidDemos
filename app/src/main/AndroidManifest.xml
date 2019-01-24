@@ -86,6 +86,7 @@
         <activity android:name=".gallery.GalleryViewpagerActivity" />
         <activity android:name=".texthtml.TextViewHtmlActivity" />
         <activity android:name=".porterduff.PorterDuffActivity" />
+        <activity android:name=".crop.SmartCropperActivity" />
 
     </application>
 

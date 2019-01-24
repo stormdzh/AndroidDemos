@@ -15,6 +15,7 @@ import demos.android.stormdzh.com.androiddemos.adapter.main.MainAdapter;
 import demos.android.stormdzh.com.androiddemos.audioconvert.AudioConvertActivity;
 import demos.android.stormdzh.com.androiddemos.audiomerge.AudioMergeActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
+import demos.android.stormdzh.com.androiddemos.crop.SmartCropperActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
 import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("画廊效果-viewpager", GalleryViewpagerActivity.class));
         mainList.add(new MainEntity("TextView显示html标签", TextViewHtmlActivity.class));
         mainList.add(new MainEntity("颜色叠加模式定义控件", PorterDuffActivity.class));
+        mainList.add(new MainEntity("基于opencv图片裁剪", SmartCropperActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

@@ -13,7 +13,8 @@ android {
 
         ndk {
             // 设置支持的SO库架构
-            abiFilters 'armeabi'
+//            abiFilters 'armeabi'
+            abiFilters 'armeabi-v7a'
         }
     }
     buildTypes {
@@ -92,4 +93,7 @@ dependencies {
 
     //添加logger
     implementation 'com.orhanobut:logger:2.1.1'
+
+    //OpenCV-图片裁剪
+    implementation 'com.github.pqpo:SmartCropper:v1.2.3'
 }
