@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import demos.android.stormdzh.com.androiddemos.adapter.main.MainAdapter;
+import demos.android.stormdzh.com.androiddemos.algorithm.AlgorithmActivity;
 import demos.android.stormdzh.com.androiddemos.audioconvert.AudioConvertActivity;
 import demos.android.stormdzh.com.androiddemos.audiomerge.AudioMergeActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("TextView显示html标签", TextViewHtmlActivity.class));
         mainList.add(new MainEntity("颜色叠加模式定义控件", PorterDuffActivity.class));
         mainList.add(new MainEntity("基于opencv图片裁剪", SmartCropperActivity.class));
+        mainList.add(new MainEntity("算法-java", AlgorithmActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

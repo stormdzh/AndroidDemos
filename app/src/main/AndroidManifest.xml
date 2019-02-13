@@ -87,6 +87,9 @@
         <activity android:name=".texthtml.TextViewHtmlActivity" />
         <activity android:name=".porterduff.PorterDuffActivity" />
         <activity android:name=".crop.SmartCropperActivity" />
+        <activity android:name=".algorithm.AlgorithmActivity" />
+        <activity android:name=".algorithm.bubblesort.BubbleSortActivity" />
+        <activity android:name=".algorithm.bubblesort.SelectionSortActivity" />
 
     </application>
 
