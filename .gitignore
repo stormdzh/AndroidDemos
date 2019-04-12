@@ -25,10 +25,11 @@ local.properties
 # Gradle
 .gradle
 .gradle/
+gradle
+gradle/
 build/
 *.bin
 *.lock
 *.ser
 *.idea
 .idea
-.gradle
