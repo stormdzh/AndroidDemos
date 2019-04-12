@@ -17,12 +17,13 @@ local.properties
 
 # IntelliJ IDEA
 .idea/
+.idea
 *.iml
 *.iws
 *.ipr
 *.gradle
 
-# Gradle
+#Gradle
 .gradle
 .gradle/
 gradle
@@ -31,5 +32,3 @@ build/
 *.bin
 *.lock
 *.ser
-*.idea
-.idea

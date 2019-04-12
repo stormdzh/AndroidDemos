@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.adrielcafe:ffmpeg-android-java-2a627f6ecd">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ffmpeg-android-java-2a627f6ecd.aar/c6006303816628f122010d724c12b7c3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ffmpeg-android-java-2a627f6ecd.aar/c6006303816628f122010d724c12b7c3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ffmpeg-android-java-2a627f6ecd.aar/b392d723e3c91d45a0f3221702d9bfab/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ffmpeg-android-java-2a627f6ecd.aar/b392d723e3c91d45a0f3221702d9bfab/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
