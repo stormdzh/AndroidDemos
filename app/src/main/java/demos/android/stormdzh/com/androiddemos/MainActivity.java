@@ -20,6 +20,7 @@ import demos.android.stormdzh.com.androiddemos.crop.SmartCropperActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
 import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
+import demos.android.stormdzh.com.androiddemos.floattop.FloatTopActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryRecycleViewActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
@@ -68,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("颜色叠加模式定义控件", PorterDuffActivity.class));
         mainList.add(new MainEntity("基于opencv图片裁剪", SmartCropperActivity.class));
         mainList.add(new MainEntity("算法-java", AlgorithmActivity.class));
+        mainList.add(new MainEntity("TAB悬浮", FloatTopActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
