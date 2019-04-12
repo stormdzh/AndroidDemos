@@ -97,6 +97,7 @@
         <activity android:name=".algorithm.bubblesort.BubbleSortActivity" />
         <activity android:name=".algorithm.bubblesort.SelectionSortActivity" />
         <activity android:name=".floattop.FloatTopActivity" />
+        <activity android:name=".facepic.FacePicActivity" />
 
     </application>
 
