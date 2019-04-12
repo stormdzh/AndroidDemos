@@ -30,3 +30,5 @@ build/
 *.lock
 *.ser
 *.idea
+.idea
+.gradle
