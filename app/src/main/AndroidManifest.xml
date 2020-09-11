@@ -65,10 +65,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
-        <!--<activity android:name=".LauchActivity">-->
+<!--        <activity android:name=".LauchActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -92,12 +91,15 @@
         <activity android:name=".gallery.GalleryViewpagerActivity" />
         <activity android:name=".texthtml.TextViewHtmlActivity" />
         <activity android:name=".porterduff.PorterDuffActivity" />
-        <activity android:name=".crop.SmartCropperActivity" />
+<!--        <activity android:name=".crop.SmartCropperActivity" />-->
         <activity android:name=".algorithm.AlgorithmActivity" />
         <activity android:name=".algorithm.bubblesort.BubbleSortActivity" />
         <activity android:name=".algorithm.bubblesort.SelectionSortActivity" />
         <activity android:name=".floattop.FloatTopActivity" />
         <activity android:name=".facepic.FacePicActivity" />
+        <activity android:name=".hook.HookClickActivity" />
+        <activity android:name=".notify.NotifyActivity" />
+        <receiver android:name=".notify.ClickReceiver"/>
 
     </application>
 

@@ -112,8 +112,11 @@ dependencies {
     implementation 'com.orhanobut:logger:2.1.1'
 
     //OpenCV-图片裁剪
-    implementation 'com.github.pqpo:SmartCropper:v1.2.3'
+//    implementation 'com.github.pqpo:SmartCropper:v1.2.3'
 
     //测试注解
 //    annotationProcessor project(':opt_compiler')
+
+     //java hook框架epic
+     implementation 'me.weishu:epic:0.6.0'
 }

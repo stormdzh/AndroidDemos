@@ -16,7 +16,7 @@ import demos.android.stormdzh.com.androiddemos.algorithm.AlgorithmActivity;
 import demos.android.stormdzh.com.androiddemos.audioconvert.AudioConvertActivity;
 import demos.android.stormdzh.com.androiddemos.audiomerge.AudioMergeActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
-import demos.android.stormdzh.com.androiddemos.crop.SmartCropperActivity;
+//import demos.android.stormdzh.com.androiddemos.crop.SmartCropperActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
 import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
@@ -24,8 +24,12 @@ import demos.android.stormdzh.com.androiddemos.facepic.FacePicActivity;
 import demos.android.stormdzh.com.androiddemos.floattop.FloatTopActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryRecycleViewActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
+import demos.android.stormdzh.com.androiddemos.hook.HookClickActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
 import demos.android.stormdzh.com.androiddemos.mp4parser.MP4ParserActivity;
+import demos.android.stormdzh.com.androiddemos.notify.NotificationUtil;
+import demos.android.stormdzh.com.androiddemos.notify.NotifyActivity;
+import demos.android.stormdzh.com.androiddemos.notify.wx.ResidentNotificationView;
 import demos.android.stormdzh.com.androiddemos.pathanim.PathAnimActivity;
 import demos.android.stormdzh.com.androiddemos.pinyin.PingyinActivity;
 import demos.android.stormdzh.com.androiddemos.porterduff.PorterDuffActivity;
@@ -48,6 +52,17 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         demos.android.stormdzh.com.androiddemos.util.PermissionUtil.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 100);
         initData();
         initView();
+
+        testNotify();
+    }
+
+    private void testNotify() {
+//        NotificationUtil mNotificationUtil=new NotificationUtil();
+//        mNotificationUtil.init(this);
+//        mNotificationUtil.showBroacast();
+        ResidentNotificationView mNotificationUtil=new ResidentNotificationView();
+        mNotificationUtil.init(this);
+        mNotificationUtil.test();
     }
 
     private void initData() {
@@ -68,10 +83,12 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("画廊效果-viewpager", GalleryViewpagerActivity.class));
         mainList.add(new MainEntity("TextView显示html标签", TextViewHtmlActivity.class));
         mainList.add(new MainEntity("颜色叠加模式定义控件", PorterDuffActivity.class));
-        mainList.add(new MainEntity("基于opencv图片裁剪", SmartCropperActivity.class));
+//        mainList.add(new MainEntity("基于opencv图片裁剪", SmartCropperActivity.class));
         mainList.add(new MainEntity("算法-java", AlgorithmActivity.class));
         mainList.add(new MainEntity("TAB悬浮", FloatTopActivity.class));
         mainList.add(new MainEntity("人脸图片", FacePicActivity.class));
+        mainList.add(new MainEntity("Hook Click", HookClickActivity.class));
+        mainList.add(new MainEntity("常驻通知栏", NotifyActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

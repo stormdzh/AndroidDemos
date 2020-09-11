@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvStart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#dcdcdc"
+        android:gravity="center"
+        android:text="开启通知栏" />
+
+
+    <TextView
+        android:id="@+id/tvStop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#dcdcdc"
+        android:gravity="center"
+        android:text="关闭通知栏" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <demos.android.stormdzh.com.androiddemos.notify.DigitPointView
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:background="@drawable/shape_common_redpoint"
+            android:gravity="center"
+            android:id="@+id/mDigitPointView"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
