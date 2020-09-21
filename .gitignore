@@ -32,3 +32,4 @@ build/
 *.bin
 *.lock
 *.ser
+.idea
