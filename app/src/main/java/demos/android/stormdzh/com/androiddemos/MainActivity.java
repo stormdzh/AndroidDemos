@@ -35,6 +35,7 @@ import demos.android.stormdzh.com.androiddemos.pinyin.PingyinActivity;
 import demos.android.stormdzh.com.androiddemos.porterduff.PorterDuffActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
+import demos.android.stormdzh.com.androiddemos.test.HandlerActivity;
 import demos.android.stormdzh.com.androiddemos.texthtml.TextViewHtmlActivity;
 import demos.android.stormdzh.com.androiddemos.turntable.TurnTableActivity;
 
@@ -89,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("人脸图片", FacePicActivity.class));
         mainList.add(new MainEntity("Hook Click", HookClickActivity.class));
         mainList.add(new MainEntity("常驻通知栏", NotifyActivity.class));
+        mainList.add(new MainEntity("Handler源码分析", HandlerActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
