@@ -101,6 +101,8 @@
         <activity android:name=".notify.NotifyActivity" />
         <receiver android:name=".notify.ClickReceiver"/>
         <activity android:name=".test.HandlerActivity"/>
+        <activity android:name=".test.DigitMsgActivity"/>
+        <activity android:name=".test.BubbleAnimActivity"/>
 
     </application>
 
