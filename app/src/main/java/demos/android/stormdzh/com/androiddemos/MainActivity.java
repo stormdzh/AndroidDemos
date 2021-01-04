@@ -25,6 +25,7 @@ import demos.android.stormdzh.com.androiddemos.floattop.FloatTopActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryRecycleViewActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
 import demos.android.stormdzh.com.androiddemos.hook.HookClickActivity;
+import demos.android.stormdzh.com.androiddemos.jobservice.JobServiceActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
 import demos.android.stormdzh.com.androiddemos.mp4parser.MP4ParserActivity;
 import demos.android.stormdzh.com.androiddemos.notify.NotificationUtil;
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
     private void initData() {
         mainList = new ArrayList<>();
 
+        mainList.add(new MainEntity("测试JobService", JobServiceActivity.class));
         mainList.add(new MainEntity("抽奖", TurnTableActivity.class));
         mainList.add(new MainEntity("Excel表格", ExcelTestActivity.class));
         mainList.add(new MainEntity("数据抓取", CatchDataActivity.class));
