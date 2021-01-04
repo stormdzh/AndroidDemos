@@ -15,6 +15,8 @@ import demos.android.stormdzh.com.androiddemos.adapter.main.MainAdapter;
 import demos.android.stormdzh.com.androiddemos.algorithm.AlgorithmActivity;
 import demos.android.stormdzh.com.androiddemos.audioconvert.AudioConvertActivity;
 import demos.android.stormdzh.com.androiddemos.audiomerge.AudioMergeActivity;
+import demos.android.stormdzh.com.androiddemos.broadcast.LocalBroadCastActivity;
+import demos.android.stormdzh.com.androiddemos.broadcast.NormalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
 //import demos.android.stormdzh.com.androiddemos.crop.SmartCropperActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
@@ -97,6 +99,8 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("Handler源码分析", HandlerActivity.class));
         mainList.add(new MainEntity("消息层级", DigitMsgActivity.class));
         mainList.add(new MainEntity("气泡动画", BubbleAnimActivity.class));
+        mainList.add(new MainEntity("全局广播", NormalBroadCastActivity.class));
+        mainList.add(new MainEntity("本地广播", LocalBroadCastActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

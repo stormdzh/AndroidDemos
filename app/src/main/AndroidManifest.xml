@@ -108,6 +108,9 @@
         <activity android:name=".test.BubbleAnimActivity" />
         <activity android:name=".jobservice.JobServiceActivity" />
 
+        <activity android:name=".broadcast.NormalBroadCastActivity" />
+        <activity android:name=".broadcast.LocalBroadCastActivity" />
+
         <service
             android:name=".jobservice.UnStudyJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
