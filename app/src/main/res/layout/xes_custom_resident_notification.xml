@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
-            android:text="学而思网校"
+            android:text="Android Demo"
             android:textColor="#474747"
             android:textSize="12sp" />
 

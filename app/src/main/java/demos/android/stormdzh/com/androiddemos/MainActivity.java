@@ -29,6 +29,8 @@ import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
 import demos.android.stormdzh.com.androiddemos.hook.HookClickActivity;
 import demos.android.stormdzh.com.androiddemos.jobservice.JobServiceActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
+import demos.android.stormdzh.com.androiddemos.localsocket.LocalSocketClientActivity;
+import demos.android.stormdzh.com.androiddemos.localsocket.LocalSocketServerActivity;
 import demos.android.stormdzh.com.androiddemos.mp4parser.MP4ParserActivity;
 import demos.android.stormdzh.com.androiddemos.notify.NotificationUtil;
 import demos.android.stormdzh.com.androiddemos.notify.NotifyActivity;
@@ -101,6 +103,8 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("气泡动画", BubbleAnimActivity.class));
         mainList.add(new MainEntity("全局广播", NormalBroadCastActivity.class));
         mainList.add(new MainEntity("本地广播", LocalBroadCastActivity.class));
+        mainList.add(new MainEntity("Local Socket 服务端", LocalSocketServerActivity.class));
+        mainList.add(new MainEntity("Local Socket 客户端", LocalSocketClientActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

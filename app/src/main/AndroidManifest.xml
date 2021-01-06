@@ -110,6 +110,10 @@
 
         <activity android:name=".broadcast.NormalBroadCastActivity" />
         <activity android:name=".broadcast.LocalBroadCastActivity" />
+        <activity android:name=".localsocket.LocalSocketServerActivity" />
+        <activity android:name=".localsocket.LocalSocketClientActivity"
+            android:process="com.localsocket.process"
+            />
 
         <service
             android:name=".jobservice.UnStudyJobService"
