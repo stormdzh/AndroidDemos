@@ -114,6 +114,10 @@
         <activity android:name=".localsocket.LocalSocketClientActivity"
             android:process="com.localsocket.process"
             />
+        <activity android:name=".bezier.BezierActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".bezier.BezierActivity2" android:screenOrientation="portrait"/>
+        <activity android:name=".bezier.BezierActivity3" android:screenOrientation="portrait"/>
+        <activity android:name=".bezier.BezierActivity4" android:screenOrientation="portrait"/>
 
         <service
             android:name=".jobservice.UnStudyJobService"

@@ -15,6 +15,10 @@ import demos.android.stormdzh.com.androiddemos.adapter.main.MainAdapter;
 import demos.android.stormdzh.com.androiddemos.algorithm.AlgorithmActivity;
 import demos.android.stormdzh.com.androiddemos.audioconvert.AudioConvertActivity;
 import demos.android.stormdzh.com.androiddemos.audiomerge.AudioMergeActivity;
+import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity;
+import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity2;
+import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity3;
+import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity4;
 import demos.android.stormdzh.com.androiddemos.broadcast.LocalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.broadcast.NormalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
@@ -105,6 +109,10 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("本地广播", LocalBroadCastActivity.class));
         mainList.add(new MainEntity("Local Socket 服务端", LocalSocketServerActivity.class));
         mainList.add(new MainEntity("Local Socket 客户端", LocalSocketClientActivity.class));
+        mainList.add(new MainEntity("贝塞尔曲线", BezierActivity.class));
+        mainList.add(new MainEntity("贝塞尔曲线2", BezierActivity2.class));
+        mainList.add(new MainEntity("贝塞尔曲线3", BezierActivity3.class));
+        mainList.add(new MainEntity("贝塞尔曲线4", BezierActivity4.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
