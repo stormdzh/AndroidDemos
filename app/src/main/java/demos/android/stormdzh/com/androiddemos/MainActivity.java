@@ -31,6 +31,7 @@ import demos.android.stormdzh.com.androiddemos.floattop.FloatTopActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryRecycleViewActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
 import demos.android.stormdzh.com.androiddemos.hook.HookClickActivity;
+import demos.android.stormdzh.com.androiddemos.interview.HandlerThreadActivity;
 import demos.android.stormdzh.com.androiddemos.jobservice.JobServiceActivity;
 import demos.android.stormdzh.com.androiddemos.listener.OnMainItemClickListener;
 import demos.android.stormdzh.com.androiddemos.localsocket.LocalSocketClientActivity;
@@ -113,6 +114,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("贝塞尔曲线2", BezierActivity2.class));
         mainList.add(new MainEntity("贝塞尔曲线3", BezierActivity3.class));
         mainList.add(new MainEntity("贝塞尔曲线4", BezierActivity4.class));
+        mainList.add(new MainEntity("HandlerThread", HandlerThreadActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
