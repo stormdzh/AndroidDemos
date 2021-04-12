@@ -46,6 +46,7 @@ import demos.android.stormdzh.com.androiddemos.pinyin.PingyinActivity;
 import demos.android.stormdzh.com.androiddemos.porterduff.PorterDuffActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
+import demos.android.stormdzh.com.androiddemos.segmentedbar.SegmentedBarActivity;
 import demos.android.stormdzh.com.androiddemos.test.BubbleAnimActivity;
 import demos.android.stormdzh.com.androiddemos.test.DigitMsgActivity;
 import demos.android.stormdzh.com.androiddemos.test.HandlerActivity;
@@ -117,6 +118,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("贝塞尔曲线4", BezierActivity4.class));
         mainList.add(new MainEntity("HandlerThread", HandlerThreadActivity.class));
         mainList.add(new MainEntity("测试Gson原理", GsonTestActivity.class));
+        mainList.add(new MainEntity("分段进度条", SegmentedBarActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

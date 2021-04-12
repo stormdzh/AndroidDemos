@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <demos.android.stormdzh.com.androiddemos.segmentedbar.view.SegmentedBarView
+        android:background="#22ff0000"
+        android:id="@+id/bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:sbv_empty_segment_text="No segments"
+        app:sbv_segment_gap_width="10dp"
+        app:sbv_segment_text_size="20sp"
+        app:sbv_show_description_text="false"
+        app:sbv_side_style="rounded"
+        app:sbv_side_text_style="twoSided"
+        app:sbv_value_sign_height="30dp"
+        app:sbv_value_sign_round="8dp"
+        app:sbv_value_sign_width="30dp" />
+
+</LinearLayout>
