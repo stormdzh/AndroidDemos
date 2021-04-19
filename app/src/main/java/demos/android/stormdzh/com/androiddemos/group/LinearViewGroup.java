@@ -1,6 +1,7 @@
 package demos.android.stormdzh.com.androiddemos.group;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -94,6 +95,12 @@ public class LinearViewGroup extends ViewGroup {
             currentHeight = currentHeight + measuredHeight + topMargin;
 
         }
+
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
 
     }
 
