@@ -31,6 +31,7 @@ import demos.android.stormdzh.com.androiddemos.facepic.FacePicActivity;
 import demos.android.stormdzh.com.androiddemos.floattop.FloatTopActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryRecycleViewActivity;
 import demos.android.stormdzh.com.androiddemos.gallery.GalleryViewpagerActivity;
+import demos.android.stormdzh.com.androiddemos.group.LinearViewGroupActivity;
 import demos.android.stormdzh.com.androiddemos.gson.GsonTestActivity;
 import demos.android.stormdzh.com.androiddemos.hook.HookClickActivity;
 import demos.android.stormdzh.com.androiddemos.interview.HandlerThreadActivity;
@@ -121,6 +122,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("测试Gson原理", GsonTestActivity.class));
         mainList.add(new MainEntity("分段进度条", SegmentedBarActivity.class));
         mainList.add(new MainEntity("View裁剪", ClippingActivity.class));
+        mainList.add(new MainEntity("自定义ViewGroup", LinearViewGroupActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }
