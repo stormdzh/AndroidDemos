@@ -23,6 +23,7 @@ import demos.android.stormdzh.com.androiddemos.broadcast.LocalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.broadcast.NormalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
 //import demos.android.stormdzh.com.androiddemos.crop.SmartCropperActivity;
+import demos.android.stormdzh.com.androiddemos.clipping.ClippingActivity;
 import demos.android.stormdzh.com.androiddemos.dragger2_test.Dragger2TestActivity;
 import demos.android.stormdzh.com.androiddemos.entity.main.MainEntity;
 import demos.android.stormdzh.com.androiddemos.excel.ExcelTestActivity;
@@ -119,6 +120,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList.add(new MainEntity("HandlerThread", HandlerThreadActivity.class));
         mainList.add(new MainEntity("测试Gson原理", GsonTestActivity.class));
         mainList.add(new MainEntity("分段进度条", SegmentedBarActivity.class));
+        mainList.add(new MainEntity("View裁剪", ClippingActivity.class));
         mainAdapter = new MainAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
     }

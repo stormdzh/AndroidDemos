@@ -121,6 +121,7 @@
         <activity android:name=".interview.HandlerThreadActivity" android:screenOrientation="portrait"/>
         <activity android:name=".gson.GsonTestActivity" android:screenOrientation="portrait"/>
         <activity android:name=".segmentedbar.SegmentedBarActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".clipping.ClippingActivity" android:screenOrientation="portrait"/>
 
         <service
             android:name=".jobservice.UnStudyJobService"
