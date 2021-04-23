@@ -123,6 +123,7 @@
         <activity android:name=".segmentedbar.SegmentedBarActivity" android:screenOrientation="portrait"/>
         <activity android:name=".clipping.ClippingActivity" android:screenOrientation="portrait"/>
         <activity android:name=".group.LinearViewGroupActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".bitmap.BitmapActivity" android:screenOrientation="portrait"/>
 
         <service
             android:name=".jobservice.UnStudyJobService"

@@ -19,6 +19,7 @@ import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity;
 import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity2;
 import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity3;
 import demos.android.stormdzh.com.androiddemos.bezier.BezierActivity4;
+import demos.android.stormdzh.com.androiddemos.bitmap.BitmapActivity;
 import demos.android.stormdzh.com.androiddemos.broadcast.LocalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.broadcast.NormalBroadCastActivity;
 import demos.android.stormdzh.com.androiddemos.catchdata.CatchDataActivity;
@@ -85,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
     private void initData() {
         mainList = new ArrayList<>();
 
+        mainList.add(new MainEntity("bitmap", BitmapActivity.class));
         mainList.add(new MainEntity("测试JobService", JobServiceActivity.class));
         mainList.add(new MainEntity("抽奖", TurnTableActivity.class));
         mainList.add(new MainEntity("Excel表格", ExcelTestActivity.class));
