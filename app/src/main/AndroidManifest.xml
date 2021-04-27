@@ -124,6 +124,8 @@
         <activity android:name=".clipping.ClippingActivity" android:screenOrientation="portrait"/>
         <activity android:name=".group.LinearViewGroupActivity" android:screenOrientation="portrait"/>
         <activity android:name=".bitmap.BitmapActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".wave.WaveActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".wave.WaveActivity2" android:screenOrientation="portrait"/>
 
         <service
             android:name=".jobservice.UnStudyJobService"

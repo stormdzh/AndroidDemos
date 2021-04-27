@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222637">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="160dp"
+        android:gravity="center">
+
+        <demos.android.stormdzh.com.androiddemos.wave.SpreadView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:spread_center_color="#ffff00"
+            app:spread_delay_milliseconds="35"
+            app:spread_distance="5"
+            app:spread_max_radius="90"
+            app:spread_radius="150"
+            app:spread_spread_color="#ffff00" />
+
+    </RelativeLayout>
+</RelativeLayout>

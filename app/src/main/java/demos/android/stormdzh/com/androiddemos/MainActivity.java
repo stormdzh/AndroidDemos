@@ -55,6 +55,8 @@ import demos.android.stormdzh.com.androiddemos.test.DigitMsgActivity;
 import demos.android.stormdzh.com.androiddemos.test.HandlerActivity;
 import demos.android.stormdzh.com.androiddemos.texthtml.TextViewHtmlActivity;
 import demos.android.stormdzh.com.androiddemos.turntable.TurnTableActivity;
+import demos.android.stormdzh.com.androiddemos.wave.WaveActivity;
+import demos.android.stormdzh.com.androiddemos.wave.WaveActivity2;
 
 public class MainActivity extends AppCompatActivity implements OnMainItemClickListener {
 
@@ -87,6 +89,8 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
         mainList = new ArrayList<>();
 
         mainList.add(new MainEntity("bitmap", BitmapActivity.class));
+        mainList.add(new MainEntity("水波", WaveActivity.class));
+        mainList.add(new MainEntity("水波2", WaveActivity2.class));
         mainList.add(new MainEntity("测试JobService", JobServiceActivity.class));
         mainList.add(new MainEntity("抽奖", TurnTableActivity.class));
         mainList.add(new MainEntity("Excel表格", ExcelTestActivity.class));
