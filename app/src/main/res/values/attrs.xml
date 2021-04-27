@@ -58,4 +58,19 @@
         <!--扩散延迟间隔-->
         <attr name="spread_delay_milliseconds" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="ShapeSpreadView">
+        <!--中心圆颜色-->
+        <attr name="shapespread_center_color" format="color" />
+        <!--中心圆半径-->
+        <attr name="shapespread_radius" format="dimension" />
+        <!--扩散圆颜色-->
+        <attr name="shapespread_spread_color" format="color" />
+        <!--扩散间距-->
+        <attr name="shapespread_distance" format="integer" />
+        <!--扩散最大半径-->
+        <attr name="shapespread_max_radius" format="dimension" />
+        <!--扩散延迟间隔-->
+        <attr name="shapespread_delay_milliseconds" format="integer" />
+    </declare-styleable>
 </resources>

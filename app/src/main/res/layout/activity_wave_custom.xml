@@ -14,14 +14,14 @@
         android:gravity="center">
 
         <demos.android.stormdzh.com.androiddemos.wave.SpreadView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:spread_center_color="#ffff00"
-            app:spread_delay_milliseconds="35"
-            app:spread_distance="5"
-            app:spread_max_radius="90"
-            app:spread_radius="150"
-            app:spread_spread_color="#ffff00" />
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            app:shapespread_center_color="#ffff00"
+            app:shapespread_delay_milliseconds="350"
+            app:shapespread_distance="3"
+            app:shapespread_max_radius="19dp"
+            app:shapespread_radius="10dp"
+            app:shapespread_spread_color="#ffff00" />
 
     </RelativeLayout>
 </RelativeLayout>
