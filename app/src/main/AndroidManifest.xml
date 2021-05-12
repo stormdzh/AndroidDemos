@@ -126,6 +126,7 @@
         <activity android:name=".bitmap.BitmapActivity" android:screenOrientation="portrait"/>
         <activity android:name=".wave.WaveActivity" android:screenOrientation="portrait"/>
         <activity android:name=".wave.WaveActivity2" android:screenOrientation="portrait"/>
+        <activity android:name=".algorithm.ViewTreeActivity" android:screenOrientation="portrait"/>
 
         <service
             android:name=".jobservice.UnStudyJobService"

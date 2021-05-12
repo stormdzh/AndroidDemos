@@ -39,6 +39,7 @@ public class AlgorithmActivity extends AppCompatActivity implements OnMainItemCl
 
         mainList.add(new MainEntity("冒泡排序", BubbleSortActivity.class));
         mainList.add(new MainEntity("选择排序", SelectionSortActivity.class));
+        mainList.add(new MainEntity("ViewGroup遍历", ViewTreeActivity.class));
 
         mainAdapter = new AlgorithmAdapter(this, mainList);
         mainAdapter.setOnMainItemClickListener(this);
