@@ -26,5 +26,10 @@ public class JobServiceActivity extends Activity {
                 AlarmManagerUtil.resSetUnStudyAlarm(JobServiceActivity.this,20);
             }
         });
+
+        TestLoadStep step =new TestLoadStep();
     }
+
+
+
 }
