@@ -33,3 +33,5 @@ build/
 *.lock
 *.ser
 .idea
+*.iml
+.gradle/buildOutputCleanup/outputFiles.bin
