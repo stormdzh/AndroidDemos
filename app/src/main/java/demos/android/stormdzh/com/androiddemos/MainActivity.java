@@ -50,6 +50,7 @@ import demos.android.stormdzh.com.androiddemos.porterduff.PorterDuffActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_rx_test.RetrofitRxTestActivity;
 import demos.android.stormdzh.com.androiddemos.retrofit_test.RetrofitTestActivity;
 import demos.android.stormdzh.com.androiddemos.segmentedbar.SegmentedBarActivity;
+import demos.android.stormdzh.com.androiddemos.shchema.SchemaSendActivity;
 import demos.android.stormdzh.com.androiddemos.test.BubbleAnimActivity;
 import demos.android.stormdzh.com.androiddemos.test.DigitMsgActivity;
 import demos.android.stormdzh.com.androiddemos.test.HandlerActivity;
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements OnMainItemClickLi
     private void initData() {
         mainList = new ArrayList<>();
 
+        mainList.add(new MainEntity("Schema", SchemaSendActivity.class));
         mainList.add(new MainEntity("bitmap", BitmapActivity.class));
         mainList.add(new MainEntity("水波", WaveActivity.class));
         mainList.add(new MainEntity("水波2", WaveActivity2.class));
